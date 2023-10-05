@@ -67,6 +67,7 @@ To use this program:
 
 javac Hello.java
 java Hello messages/en-us.txt
+
 2) working under directory: /home/lecture1
 3) Content of README was printed
 4) No output error
