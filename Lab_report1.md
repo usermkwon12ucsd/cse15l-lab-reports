@@ -2,9 +2,9 @@
 
 ## ls:
 
-1) #code block
-   [user@sahara ~]$ ls
-lecture1
+1) [user@sahara ~]$ ls
+   
+   lecture1
 3) Working under directory: /home
 4) ls command list the files and directories directory under working directory which is just lecture directory in this case.
 5) No output error
@@ -28,20 +28,26 @@ lecture1
 ## ls:
 1) [user@sahara ~]$ ls lecture1/
 Hello.class  Hello.java  messages  README
+
+
 2) Working under directory: /home
 3) It shows the files and a folder directly under the directory lecture1.
 4) No output error
 
 ## cd:
 1) [user@sahara ~]$ cd lecture1
-[user@sahara ~/lecture1]$ 
+   
+ [user@sahara ~/lecture1]$ 
+ 
 2) Working under directory: /home -> /home/lecture1
 3) Move into lecture1 directory
 4) No output error
 
 ## cat:
 1) [user@sahara ~/lecture1]$ cat messages
-cat: messages: Is a directory
+
+   cat: messages: Is a directory
+
 2) Working under directory: /home/lecture1
 3) Cat shows the content of an file but messages is an directory so it gives an error message.
 4) It's an error, messages is a directory not a file.
@@ -50,24 +56,29 @@ cat: messages: Is a directory
 
 ## ls:
 1) [user@sahara ~/lecture1]$ ls Hello.java
-Hello.java
+   
+   Hello.java
+   
 2) working under directory: /home/lecture1
 3) Only Hello.java file is under Hello.java
 4) No output error
 
 ## cd:
 1) [user@sahara ~/lecture1]$ cd README
-bash: cd: README: Not a directory
+
+   bash: cd: README: Not a directory
+
 2) working under directory: /home/lecture1
 3) cd changes to directory but README is a file
 4) Yes there's an error. cd requires directory name or some particular symbol like .. or ~ as an argument but the file name was given
 
 ## cat:
 1) [user@sahara ~/lecture1]$ cat README
-To use this program:
 
-javac Hello.java
-java Hello messages/en-us.txt
+   To use this program:
+
+   javac Hello.java
+   java Hello messages/en-us.txt
 
 
 2) working under directory: /home/lecture1
