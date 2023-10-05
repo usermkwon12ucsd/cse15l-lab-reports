@@ -22,7 +22,7 @@ lecture1
 4) Four I would not say it gives an error. It waits until the user to type any argument.
 
 
-#2.Command with a path to directory as an argument
+# 2.Command with a path to directory as an argument
 
 ## ls:
 1) One [user@sahara ~]$ ls lecture1/
