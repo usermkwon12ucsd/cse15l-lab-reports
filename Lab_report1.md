@@ -2,11 +2,11 @@
 
 ## ls:
 
-1) One [user@sahara ~]$ ls
+1) [user@sahara ~]$ ls
 lecture1
-2) Two Working under directory: /home
-3) Three ls command list the files and directories directory under working directory which is just lecture directory in this case.
-4) Four No output error
+2) Working under directory: /home
+3) ls command list the files and directories directory under working directory which is just lecture directory in this case.
+4) No output error
 
 ## cd:
 
