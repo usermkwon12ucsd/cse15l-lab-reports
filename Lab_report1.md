@@ -2,7 +2,8 @@
 
 ## ls:
 
-1)``` [user@sahara ~]$ ls
+1)``` 
+[user@sahara ~]$ ls
 lecture1
   ```
   
@@ -15,7 +16,11 @@ lecture1
 
 ## cd:
 
-1) [user@sahara ~]$ cd
+1) ```
+[user@sahara ~/lecture1]$ cd 
+[user@sahara ~]$ 
+```
+
 
 2) Working under directory: /home
  
