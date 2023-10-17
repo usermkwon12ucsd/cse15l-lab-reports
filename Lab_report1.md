@@ -2,7 +2,9 @@
 
 ## ls:
 
-1)``` 
+1)
+
+``` 
 [user@sahara ~]$ ls
 lecture1
   ```
@@ -16,7 +18,9 @@ lecture1
 
 ## cd:
 
-1) ```
+1) 
+
+```
 [user@sahara ~/lecture1]$ cd 
 [user@sahara ~]$ 
 ```
@@ -29,7 +33,13 @@ lecture1
 4) No output error
 
 ## cat:
-1) [user@sahara ~]$ cat
+1) 
+
+```
+[user@sahara ~]$ cat 
+standardtest 
+standardtest
+```
  
 2) working under directory:/home
 
