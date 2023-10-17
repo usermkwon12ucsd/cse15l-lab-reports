@@ -2,9 +2,10 @@
 
 ## ls:
 
-1) [user@sahara ~]$ ls
-   
-   lecture1
+1)``` [user@sahara ~]$ ls
+lecture1
+  ```
+  
 2) Working under directory: /home
 
 3) ls command list the files and directories directory under working directory which is just lecture directory in this case.
@@ -18,7 +19,7 @@
 
 2) Working under directory: /home
  
-3) cd command enables user to move into directory same as the given argument. Here, no argument is given so there is no change.
+3) cd command enables user to move into directory same as the given argument. If no argument is given, then it changes directory to 	home.
 
 4) No output error
 
