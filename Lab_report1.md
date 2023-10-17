@@ -51,8 +51,12 @@ standardtest
 # 2.Command with a path to directory as an argument
 
 ## ls:
-1) [user@sahara ~]$ ls lecture1/
+1)
+
+```
+[user@sahara ~]$ ls lecture1/
 Hello.class  Hello.java  messages  README
+```
 
 
 2) Working under directory: /home
@@ -62,9 +66,13 @@ Hello.class  Hello.java  messages  README
 4) No output error
 
 ## cd:
-1) [user@sahara ~]$ cd lecture1
+1) 
+
+```
+[user@sahara ~]$ cd lecture1
    
- [user@sahara ~/lecture1]$ 
+[user@sahara ~/lecture1]$ 
+```
  
 2) Working under directory: /home -> /home/lecture1
 
@@ -73,9 +81,13 @@ Hello.class  Hello.java  messages  README
 4) No output error
 
 ## cat:
-1) [user@sahara ~/lecture1]$ cat messages
+1) 
 
-   cat: messages: Is a directory
+```
+[user@sahara ~/lecture1]$ cat messages
+
+cat: messages: Is a directory
+```
 
 2) Working under directory: /home/lecture1
 
@@ -86,9 +98,13 @@ Hello.class  Hello.java  messages  README
 # 3.command with a path to file as an argument
 
 ## ls:
-1) [user@sahara ~/lecture1]$ ls Hello.java
+1) 
+
+```
+[user@sahara ~/lecture1]$ ls Hello.java
    
-   Hello.java
+Hello.java
+```
    
 2) working under directory: /home/lecture1
 
@@ -97,9 +113,13 @@ Hello.class  Hello.java  messages  README
 4) No output error
 
 ## cd:
-1) [user@sahara ~/lecture1]$ cd README
+1)
 
-   bash: cd: README: Not a directory
+```
+[user@sahara ~/lecture1]$ cd README
+
+bash: cd: README: Not a directory
+```
 
 2) working under directory: /home/lecture1
  
@@ -108,12 +128,16 @@ Hello.class  Hello.java  messages  README
 4) Yes there's an error. cd requires directory name or some particular symbol like .. or ~ as an argument but the file name was given
 
 ## cat:
-1) [user@sahara ~/lecture1]$ cat README
+1) 
 
-   To use this program:
+```
+[user@sahara ~/lecture1]$ cat README
 
-   javac Hello.java
-   java Hello messages/en-us.txt
+To use this program:
+
+javac Hello.java
+java Hello messages/en-us.txt
+```
 
 
 2) working under directory: /home/lecture1
