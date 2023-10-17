@@ -26,7 +26,7 @@ lecture1
 ```
 
 
-2) Working under directory: /home
+2) Working under directory: /home/lecture1
  
 3) cd command enables user to move into directory same as the given argument. If no argument is given, then it changes directory to 	home.
 
@@ -43,7 +43,7 @@ standardtest
  
 2) working under directory:/home
 
-3) cat command show the content of the file given by the argument. Here, nothing is given and the terminal wait the user to type anything.
+3) cat command show the content of the file given by the argument. But when there is no argument it waits the user to type something and print back the exact input that the user just gave.
 
 4) I would not say it gives an error. It waits until the user to type any argument.
 
