@@ -125,6 +125,10 @@ class Server {
     
 
 # Part2
+![path-to-private-key](lab3_part2a.png)
+&nbsp;
+
+
 ![path-to-public-key](lab3_part2b.png)
 &nbsp;
 
