@@ -95,7 +95,21 @@ class Server {
 
 ![part1_image1](./Lab3_part1a.png)
 
-![part1_image2](./Lab3_par1b.png)
+![part1_image2](./Lab3_part1b.png)
+
+1. I used handleRequest method from lab2 which I duly changed it.
+2. Relevant argument: URI url,
+
+   fields:String display -> this variable stores all strings to display on the webpage
+          int index -> this number counts how many times domain is ended with /add-message
+          String[] parameters ->this array stores contents of query by splitting it around "="
+          String s -> this string stores content to be add
+          String s_index -> stores value of index into string
+
+   
+3. First attempt with argument
+
+# Part2
 
 
 # Part3
