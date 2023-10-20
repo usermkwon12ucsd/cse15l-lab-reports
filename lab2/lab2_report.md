@@ -92,25 +92,38 @@ class Server {
 }
 
 ```
-
+### First attempt with add-message 
 ![part1_image1](./Lab3_part1a.png)
 
+
+### Second attempt with add-message
 ![part1_image2](./Lab3_part1b.png)
 
 1. I used handleRequest method from lab2 which I duly changed it.
 2. Relevant argument: URI url,
 
-   fields:String display -> this variable stores all strings to display on the webpage
-          int index -> this number counts how many times domain is ended with /add-message
-          String[] parameters ->this array stores contents of query by splitting it around "="
-          String s -> this string stores content to be add
-          String s_index -> stores value of index into string
+- fields:String display -> this variable stores all strings to display on the webpage
+- int index -> this number counts how many times domain is ended with /add-message
+- String[] parameters ->this array stores contents of query by splitting it around "="
+- String s -> this string stores content to be add
+- String s_index -> stores value of index into string
 
    
-3. First attempt with argument
+3. First attempt:
+- String display = "" , int index = 1, String[] parameters
+- String s=
+    [//]: # (Hello)
+
+
+    
+   
+4. with url:/add-message?s=Hello, world
+   Second attempt with url:
+
 
 # Part2
-
+![path-to-public-key](lab3_part2b.png)
+![terminal-interaction](lab3_part2c.png)
 
 # Part3
 
