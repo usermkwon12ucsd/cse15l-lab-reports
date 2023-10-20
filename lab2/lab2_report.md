@@ -128,14 +128,16 @@ class Server {
     
 
 # Part2
+### Path to private key
 ![path-to-private-key](lab3_part2a.png)
 &nbsp;
 
+### Path to public key
 
 ![path-to-public-key](lab3_part2b.png)
 &nbsp;
 
-
+### Login without typing password
 ![terminal-interaction](lab3_part2c.png)
 
 # Part3
