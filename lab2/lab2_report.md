@@ -102,7 +102,10 @@ class Server {
 ![part1_image2](./Lab3_part1b.png)
 
 1. I used handleRequest method from lab2 which I duly changed it.
-2. Relevant argument: URI url,
+2. Relevant argument: URI url
+- First Attempt : "localhost:4000/add-message?s=Hello, world."
+- Second Attempt : "localhost:4000/add-message?s=Good Morning"
+
    Fields:
 - String display -> this variable stores all strings to display on the webpage
 - int index -> this number counts how many times domain is ended with /add-message
@@ -111,7 +114,7 @@ class Server {
 - String s_index -> stores value of index into string
 
    
-3. First attempt:
+  First attempt:
 - String display = "" -> "1. Hello, world."
 - int index = 1, String[] parameters = {"s", "Hello, world."}
 - String s = "Hello, world", String s_index = "1"
