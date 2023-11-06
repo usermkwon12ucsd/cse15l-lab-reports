@@ -26,7 +26,9 @@ class Handler implements URLHandler{
     static int index = 1;
     public String handleRequest(URI url){
         if(url.getPath().endsWith("/add-message")){
+            if(url.getQuery()==null) return display;
             String[] parameters = url.getQuery().split("=");
+            if(parameters.length<=1||parameters[0].equals("s") return display;
             String s = parameters[1];
             String s_index = String.valueOf(index);
             display+=s_index+". "+s+"\n";
@@ -130,6 +132,7 @@ class Server {
 # Part2
 ### Path to private key
 ![path-to-private-key](lab3_part2a.png)
+id_rsa is my private key.
 &nbsp;
 
 ### Path to public key
