@@ -28,7 +28,7 @@ class Handler implements URLHandler{
         if(url.getPath().endsWith("/add-message")){
             if(url.getQuery()==null) return display;
             String[] parameters = url.getQuery().split("=");
-            if(parameters.length<=1||parameters[0].equals("s") return display;
+            if(parameters.length<=1||parameters[0].equals("s")) return display;
             String s = parameters[1];
             String s_index = String.valueOf(index);
             display+=s_index+". "+s+"\n";
