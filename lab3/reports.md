@@ -188,6 +188,7 @@ minseok@minseoks-MacBook-Pro technical % find ./911report -type f
    &nbsp;  Source: https://www.makeuseof.com/find-command-linux/
 - Find all files under current and sub directories with size less than 512byte.
 - We can see files under certain size.
+  
 
 ```
 minseok@minseoks-MacBook-Pro technical % find . -size 512c
@@ -198,6 +199,7 @@ minseok@minseoks-MacBook-Pro technical % find . -size 512c
    
 
 - Find all files under current and sub directories with size more than 100kb. In this way, we can see which files need lots of memories.
+  
 ```
 minseok@minseoks-MacBook-Pro technical % find . -size +100k
 ./government/About_LSC/commission_report.txt
@@ -235,12 +237,15 @@ minseok@minseoks-MacBook-Pro technical % find . -size +100k
    
 - Find all empty files in technical directory and its subdirectories.
 - We can search for empty files and maybe delete it.
+  
 ```
 minseok@minseoks-MacBook-Pro technical % find . -empty
 minseok@minseoks-MacBook-Pro technical % 
 ```
+
 - Find empty files in government directory and its subdirectories.
 - We can search for blank text files and maybe delete it.
+  
 ```
 minseok@minseoks-MacBook-Pro technical % find ./government -empty
 minseok@minseoks-MacBook-Pro technical % 
