@@ -94,9 +94,9 @@ minseok@minseoks-MacBook-Pro technical % find . -name "*.txt"
 and many more lines
    
 
-&nbsp;&nbsp;
 - Find all text files under biomed directory, having names starting with 1471.
 - As we specify the directories and name of the files we can search for files we want more easily.
+  
 ```
 minseok@minseoks-MacBook-Pro technical % find ./biomed -name  "1471*.txt"
 ./biomed/1471-2350-4-3.txt
