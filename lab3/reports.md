@@ -63,8 +63,8 @@ For the fix, we copy from arr to newArray in reverse and return newArray.
    
 - Find all text files under technical and its subdirectories.
 - In this way, we search for files using its extension. For example the extension that is used here is txt.
+  
 ```
-
 minseok@minseoks-MacBook-Pro technical % find . -name "*.txt"
 ./government/About_LSC/LegalServCorp_v_VelazquezSyllabus.txt
 ./government/About_LSC/Progress_report.txt
@@ -96,9 +96,9 @@ and many more lines
 
 - Find all text files under biomed directory, having names starting with 1471.
 - As we specify the directories and name of the files we can search for files we want more easily.
-  
-```
 
+
+```
 minseok@minseoks-MacBook-Pro technical % find ./biomed -name  "1471*.txt"
 ./biomed/1471-2350-4-3.txt
 ./biomed/1471-2156-2-3.txt
@@ -155,7 +155,6 @@ minseok@minseoks-MacBook-Pro technical % find . -type d
 ./biomed
 ./911report
 minseok@minseoks-MacBook-Pro technical %
-
 ```
 
 - Find all files under 911report directories and its sub directories.
