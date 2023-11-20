@@ -140,37 +140,19 @@ and many more lines
 - Find all subdirectories under technical directory.
 - We can easily see the file structure in this way.
 ```
-minseok@minseoks-MacBook-Pro docsearch % find . -type d
+minseok@minseoks-MacBook-Pro technical % find . -type d
 .
-./lib
-./.git
-./.git/objects
-./.git/objects/pack
-./.git/objects/info
-./.git/info
-./.git/logs
-./.git/logs/refs
-./.git/logs/refs/heads
-./.git/logs/refs/remotes
-./.git/logs/refs/remotes/origin
-./.git/hooks
-./.git/refs
-./.git/refs/heads
-./.git/refs/tags
-./.git/refs/remotes
-./.git/refs/remotes/origin
-./technical
-./technical/government
-./technical/government/About_LSC
-./technical/government/Env_Prot_Agen
-./technical/government/Alcohol_Problems
-./technical/government/Gen_Account_Office
-./technical/government/Post_Rate_Comm
-./technical/government/Media
-./technical/plos
-./technical/biomed
-./technical/911report
-minseok@minseoks-MacBook-Pro docsearch % 
+./government
+./government/About_LSC
+./government/Env_Prot_Agen
+./government/Alcohol_Problems
+./government/Gen_Account_Office
+./government/Post_Rate_Comm
+./government/Media
+./plos
+./biomed
+./911report
+minseok@minseoks-MacBook-Pro technical % 
 ```
 
 &nbsp;&nbsp;
