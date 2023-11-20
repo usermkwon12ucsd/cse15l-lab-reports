@@ -59,7 +59,7 @@ For the fix, we copy from arr to newArray in reverse and return newArray.
 # Part 2 - Researching Commands
 ## I choosed find command
 
-1. -name flag: find files based on their name, source:lecture
+1. name flag: find files based on their name, source:lecture
    
 - Find all text files under technical and its subdirectories.
 - In this way, we search for files using its extension. For example the extension that is used here is txt.
@@ -135,7 +135,7 @@ and many more lines
 
 
    
-2. -type flag: find files based on their type, source:lecture
+2. type flag: find files based on their type, source:lecture
 
    
 - Find all subdirectories under technical directory.
@@ -183,7 +183,7 @@ minseok@minseoks-MacBook-Pro technical % find ./911report -type f
 ```
 
   
-3. -size flag: search for files based on size we can use comparison operator such as +,-,=.
+3. size flag: search for files based on size we can use comparison operator such as +,-,=.
    &nbsp;  Source: https://www.makeuseof.com/find-command-linux/
 - Find all files under current and sub directories with size less than 512byte.
 - We can see files under certain size.
@@ -232,7 +232,7 @@ minseok@minseoks-MacBook-Pro technical % find . -size +100k
 ./911report/chapter-12.txt
 ```
 
-4. -empty flag: search for empty files. Source:https://www.freecodecamp.org/news/how-to-search-files-effectively-in-linux/#:~:text=You%20can%20use%20the%20%2Dempty,and%20directories%20that%20are%20empty.&text=This%20command%20will%20list%20all,the%20empty%20files%20and%20folders.
+4. empty flag: search for empty files. Source:https://www.freecodecamp.org/news/how-to-search-files-effectively-in-linux/#:~:text=You%20can%20use%20the%20%2Dempty,and%20directories%20that%20are%20empty.&text=This%20command%20will%20list%20all,the%20empty%20files%20and%20folders.
    
 - Find all empty files in technical directory and its subdirectories.
 - We can search for empty files and maybe delete it.
