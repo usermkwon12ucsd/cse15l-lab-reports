@@ -98,6 +98,7 @@ and many more lines
 - As we specify the directories and name of the files we can search for files we want more easily.
   
 ```
+
 minseok@minseoks-MacBook-Pro technical % find ./biomed -name  "1471*.txt"
 ./biomed/1471-2350-4-3.txt
 ./biomed/1471-2156-2-3.txt
@@ -140,6 +141,7 @@ and many more lines
 - Find all subdirectories under technical directory.
 - We can easily see the file structure in this way.
 ```
+
 minseok@minseoks-MacBook-Pro technical % find . -type d
 .
 ./government
@@ -152,13 +154,15 @@ minseok@minseoks-MacBook-Pro technical % find . -type d
 ./plos
 ./biomed
 ./911report
-minseok@minseoks-MacBook-Pro technical % 
+minseok@minseoks-MacBook-Pro technical %
+
 ```
 
-&nbsp;&nbsp;
 - Find all files under 911report directories and its sub directories.
 - We can easily search for files we want if the number of files are small.
+  
 ```
+
 minseok@minseoks-MacBook-Pro technical % find ./911report -type f
 ./911report/chapter-13.4.txt
 ./911report/chapter-13.5.txt
@@ -177,6 +181,7 @@ minseok@minseoks-MacBook-Pro technical % find ./911report -type f
 ./911report/chapter-12.txt
 ./911report/chapter-10.txt
 ./911report/chapter-11.txt
+
 ```
 
   
@@ -189,6 +194,7 @@ minseok@minseoks-MacBook-Pro technical % find ./911report -type f
 minseok@minseoks-MacBook-Pro technical % find . -size 512c
 ./government/Env_Prot_Agen
 ./government/Post_Rate_Comm
+
 ```
    
 
