@@ -1,5 +1,5 @@
 ## Step4:
-- Key pressed:ssh cs15lfa23rm@ucsd.edu`<enter>`
+- Key pressed:`ssh cs15lfa23rm@ucsd.edu<enter>`
 ## Step5:
 - Key pressed:  `git clone git@github.com:usermkwon12ucsd/lab7.git <enter>`. Then entered my passphrase for the key.
 ## Step6
