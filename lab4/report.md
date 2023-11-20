@@ -11,7 +11,7 @@
 ![step7](step7.png)
 
 - Key pressed:I pressed `vim ListExamples.java<enter>` to open a file. Then pressed `<down>` 44 times and `<right>` 11 times to go to the character that I want.
-  After that I pressed `xi<esc>2:wq<enter>`.
+  After that I pressed `xi2<esc>:wq<enter>`.
 ## Step8
 ![step8](step8.png)
 
