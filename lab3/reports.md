@@ -136,12 +136,12 @@ and many more lines
 
    
 2. -type flag: find files based on their type, source:lecture
-   &nbsp;&nbsp;
+
    
 - Find all subdirectories under technical directory.
 - We can easily see the file structure in this way.
+  
 ```
-
 minseok@minseoks-MacBook-Pro technical % find . -type d
 .
 ./government
@@ -161,7 +161,6 @@ minseok@minseoks-MacBook-Pro technical %
 - We can easily search for files we want if the number of files are small.
   
 ```
-
 minseok@minseoks-MacBook-Pro technical % find ./911report -type f
 ./911report/chapter-13.4.txt
 ./911report/chapter-13.5.txt
@@ -245,6 +244,7 @@ minseok@minseoks-MacBook-Pro technical %
 
 - Find empty files in government directory and its subdirectories.
 - We can search for blank text files and maybe delete it.
+
   
 ```
 minseok@minseoks-MacBook-Pro technical % find ./government -empty
