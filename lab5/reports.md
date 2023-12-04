@@ -26,6 +26,7 @@ lab5\
 P.S I am running all comands from lab5 directory.
 - Before fixing the bug
 java files:
+
 ```
 import java.util.ArrayList;
 import java.util.Collection;
@@ -53,7 +54,9 @@ public class StringFinder{
     
 }
 ```
+
 bash files:
+
 ```
 #bash file to auto grade student's submission
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
@@ -68,11 +71,10 @@ pass=$(tail -n 2 testresult.txt | grep -c "OK")
     failures=$(tail -n 2 testresult.txt | head -n 1 | grep -o '[0-9]*$')
     total=$(tail -n 2 testresult.txt | grep -oE '[0-9]+' | sed -n 1p)
     echo "Your Grade: $((total - failures))/$((total))"
-
-
 ```
 
 JUnit testing files:
+
 ```
 import static org.junit.Assert.*;
 import org.junit.*;
