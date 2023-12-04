@@ -27,7 +27,7 @@ P.S I am running all comands from lab5 directory.
 - Before fixing the bug
 java files:
 ```
-mport java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
