@@ -1,17 +1,21 @@
 # Part1
 ## Step1
 My code:
-[!img](mycode.png)
+![img](mycode.png)
 Test result:
-[!img](testresult.png)
-I can't find which part of my code is wrong!! Isn't it binary search works well.
+![img](testresult.png)
+I can't find which part of my code is wrong!! I don't think there is any edge case that I don't cover.
 ## Step2
+There are edge cases.
 You should think about more edge cases.
 First, think what would happen if List length is very small namely 0 or 1.
 Second, what would happen if some of inputs are null?
 For safety, when you compare two strings you should not use == operators.
 
 ## Step3
+![img](afterfix.png)
+Thanks, I didn't think about the case where target == null and list1 == null. I guess that's where my code fails the tests.
+Also, I now use String.equals method to check if two strings are equal. Now I know == operator does not work for some cases in string comparison.
 ## Step4
 - File Structure:\
 lab5\
@@ -67,6 +71,7 @@ pass=$(tail -n 2 testresult.txt | grep -c "OK")
 
 
 ```
+
 JUnit testing files:
 ```
 import static org.junit.Assert.*;
@@ -79,7 +84,7 @@ public class TestStringSort{
     public void test(){
         List str1= Arrays.asList(new String[] {"a", "b", "c"});
         StringFinder s = new StringFinder();
-        assertEquals(0, s.search(str1, "b", 0, str1.size()-1));
+        assertEquals(1, s.search(str1, "b", 0, str1.size()-1));
     }
    
 
@@ -106,7 +111,14 @@ public class TestStringSort{
 }
 ```
 
--command that I ran:bash test.sh
+- command that I ran:bash test.sh
+- I fixed bugs modifying this line
+`if(low>=high) return -1; ` to
+`if(low>high || target == null || list1 == null|| low<0 || high>list1.size()) return -1;`
+It checks the edge cases where taget and list are null.
+Moreover, I now use String.equals method to check if two strings are equal.
+
+
 
 
 
